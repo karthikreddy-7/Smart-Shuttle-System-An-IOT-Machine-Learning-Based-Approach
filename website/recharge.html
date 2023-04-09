@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Smart Shuttle System Recharge</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a href="index.html" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <span class="ml-11 text-xl">Smart Shuttle System</span>
+          </a>
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a href="FAQ.html" class="mr-5 hover:text-gray-900">FAQ</a>
+            <a href="recharge.html" class="mr-5 hover:text-gray-900">RECHARGE</a>
+            <a href="about.html" class="mr-5 hover:text-gray-900">ABOUT US</a>
+          </nav>
+          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">SIGN UP/ENROLL NOW
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </header>
+	<h1>Smart Shuttle System Recharge</h1>
+	<form name="rechargeForm" onsubmit="return validateForm()" action="recharge.php" method="post">
+		<label for="username">Username :</label>
+		<input type="text" id="username" name="username"><br><br>
+		<label for="amount">Amount:</label>
+		<input type="text" id="amount" name="amount"><br><br>
+		<input type="submit" value="Recharge">
+	</form>
+	<section>
+		<footer class="text-gray-600 body-font">
+			<div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+			  <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+				<a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+				  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+					<path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+				  </svg>
+				  <span class="ml-3 text-xl">Smart Shuttle System</span>
+				</a>
+				<p class="mt-2 text-sm text-gray-500">A new way for easier payments.</p>
+			  </div>
+			  <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
+				<div class="lg:w-1/4 md:w-1/2 w-full px-4">
+				  <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">A Project of IOT</h2>
+				  <nav class="list-none mb-10">
+					<li>
+					  <a href="about.html" class="text-gray-600 hover:text-gray-800">about</a>
+					</li>
+					<li>
+					  <a href="FAQ.html" class="text-gray-600 hover:text-gray-800">Instructions</a>
+					</li>
+					<li>
+					  <a href="recharge.html" class="text-gray-600 hover:text-gray-800">recharge</a>
+					</li>
+					<li>
+					  <a href="location.html" class="text-gray-600 hover:text-gray-800">Location </a>
+					</li>
+				  </nav>
+				</div>
+			  </div>
+			</div>
+		  </footer>
+	</section>
+</body>
+</html>
