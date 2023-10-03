@@ -4,3 +4,6 @@ The Smart Shuttle System enables faster ticket payment and easier travel for the
 
 
 To visit the site: https://smartshuttlesystem.shop/
+
+
+![Picture1](https://github.com/karthikreddy-7/Smart-Shuttle-System-An-IOT-Machine-Learning-Based-Approach/assets/120310158/584bc748-df63-42e6-bac0-74da5659e874)
